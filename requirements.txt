@@ -1,0 +1,3 @@
+# Runtime is standard library plus Pillow. The offline checks (--dry-run,
+# --verify-manifest, and the test suite) need nothing else and make no network calls.
+Pillow>=10.0

@@ -1,0 +1,39 @@
+{
+  "brand_name": "DATUM-01",
+  "fixture_status": "Fictional product fixture for a neutral public example repository. Not a real product.",
+  "tagline": "Calm environmental telemetry for quiet workspaces.",
+  "raw_baseline_brief": "Create a clean product visual for DATUM-01, a minimalist desktop climate monitor and companion app.",
+  "palette": {
+    "alabaster": {"hex": "#F5F3EE", "role": "primary background ground: matte warm ceramic and seamless backdrop"},
+    "stone": {"hex": "#E8E3D9", "role": "secondary neutral surface: panels, cards, and desk ground"},
+    "aluminum": {"hex": "#D8D4CC", "role": "brushed metal neutral: bezels, trim, and edge highlights"},
+    "ink": {"hex": "#18181B", "role": "matte charcoal graphite: device face, type-free UI ink, and shadow anchors"},
+    "terra": {"hex": "#C84B31", "role": "single signature anodized terracotta accent: one dot or status indicator per frame"}
+  },
+  "materials": [
+    "matte warm-alabaster ceramic",
+    "bead-blasted brushed aluminum",
+    "pale honed limestone",
+    "matte charcoal graphite",
+    "anodized terracotta accent dot"
+  ],
+  "lighting": "Soft directional morning daylight from camera-left, matte surfaces, subtle architectural shadows, no neon glow, no text or watermarks.",
+  "negative_constraints": "no text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles",
+  "slots": {
+    "anchor_hardware": {"stage": "anchor", "aspect_ratio": "16:9", "size": "2720x1536", "label": "Anchor 01 · Hardware Material Sheet"},
+    "anchor_interface": {"stage": "anchor", "aspect_ratio": "16:9", "size": "2720x1536", "label": "Anchor 02 · UI Surface & Grid Sheet"},
+    "asset_app_icon": {"stage": "remix", "aspect_ratio": "1:1", "size": "2048x2048", "label": "Remix 01 · App Icon"},
+    "asset_dashboard_shell": {"stage": "remix", "aspect_ratio": "16:9", "size": "2720x1536", "label": "Remix 02 · Companion Dashboard"},
+    "asset_packaging": {"stage": "remix", "aspect_ratio": "3:2", "size": "2496x1664", "label": "Remix 03 · Retail Packaging"},
+    "asset_social_banner": {"stage": "remix", "aspect_ratio": "16:9", "size": "2720x1536", "label": "Remix 04 · Launch Header"}
+  },
+  "baseline_slots": {
+    "baseline_dashboard": {"aspect_ratio": "16:9", "size": "2720x1536", "label": "Baseline 01 · Unbatched Dashboard"},
+    "baseline_packaging": {"aspect_ratio": "3:2", "size": "2496x1664", "label": "Baseline 02 · Unbatched Packaging"}
+  },
+  "baseline_policy": {
+    "prompt_source": "raw_baseline_brief",
+    "llm_style_lock": false,
+    "reference_batch": false
+  }
+}

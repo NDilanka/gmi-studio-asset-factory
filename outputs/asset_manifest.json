@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "baseline_dashboard": "../assets/baseline/baseline_dashboard.png",
+    "baseline_packaging": "../assets/baseline/baseline_packaging.png"
+  },
+  "factory": {
+    "anchor_hardware": "../assets/factory/anchor_hardware.png",
+    "anchor_interface": "../assets/factory/anchor_interface.png",
+    "asset_app_icon": "../assets/factory/asset_app_icon.png",
+    "asset_dashboard_shell": "../assets/factory/asset_dashboard_shell.png",
+    "asset_packaging": "../assets/factory/asset_packaging.png",
+    "asset_social_banner": "../assets/factory/asset_social_banner.png"
+  }
+}

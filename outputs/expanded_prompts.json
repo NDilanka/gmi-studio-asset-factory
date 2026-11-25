@@ -1,0 +1,38 @@
+{
+  "brand_name": "DATUM-01",
+  "brief_sha256": "4a56998fc056d94b36281be03e7d594824bcc697f9f761ed882d57a3d11e8c78",
+  "generated_utc": "2026-11-25T08:10:17Z",
+  "model": "zai-org/GLM-5.3-Flash",
+  "temperature": 0.0,
+  "max_tokens": 2048,
+  "reasoning_effort": "low",
+  "attempts": 1,
+  "latency_ms": 51711,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 968,
+    "total_tokens": 2037
+  },
+  "cost_note": "List-price cost is not computed here. Check the GMI console for billed amounts.",
+  "slots": {
+    "anchor_hardware": {
+      "prompt": "DATUM-01 hardware material sheet: a minimalist desktop climate monitor rendered as a rounded matte alabaster #F5F3EE ceramic body with a bead-blasted brushed aluminum #D8D4CC bezel, matte charcoal graphite #18181B face, resting on pale honed limestone #E8E3D9, with a single anodized terracotta #C84B31 accent dot. Macro material study showing ceramic grain, brushed metal texture, soft edge highlights, subtle architectural shadows. Soft directional morning daylight from camera-left, matte finishes only. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    },
+    "anchor_interface": {
+      "prompt": "DATUM-01 interface surface and grid sheet: abstract type-free UI panels on matte alabaster #F5F3EE ground, stone #E8E3D9 cards and panels with soft rounded corners, brushed aluminum #D8D4CC trim lines, matte charcoal graphite #18181B blocks standing in for ink-level UI shapes, one anodized terracotta #C84B31 accent dot as sole status marker. Flat lay grid composition with quiet whitespace, pale honed limestone texture edge. Soft directional morning daylight from camera-left, matte paper-ceramic surfaces, subtle shadows. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    },
+    "asset_app_icon": {
+      "prompt": "DATUM-01 app icon: a single rounded-square icon tile in matte alabaster #F5F3EE ceramic with a bead-blasted brushed aluminum #D8D4CC inner rim and a matte charcoal graphite #18181B abstract glyph form suggesting calm environmental telemetry, marked by one anodized terracotta #C84B31 accent dot. Centered composition on stone #E8E3D9 ground, honed limestone #E8E3D9 texture, soft depth shadow. Soft directional morning daylight from camera-left, fully matte surfaces, subtle top-left highlight. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    },
+    "asset_dashboard_shell": {
+      "prompt": "DATUM-01 companion dashboard shell: an abstract type-free dashboard interface shown on a matte alabaster #F5F3EE screen plane framed by bead-blasted brushed aluminum #D8D4CC, arranged over a stone #E8E3D9 desk surface of pale honed limestone. Charcoal graphite #18181B rectangular blocks suggest charts and cards without legible content, with a single anodized terracotta #C84B31 status dot. Calm grid layout, generous whitespace, soft architectural shadows. Soft directional morning daylight from camera-left, matte anti-glare finish. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    },
+    "asset_packaging": {
+      "prompt": "DATUM-01 retail packaging: a minimalist matte alabaster #F5F3EE box with embossed blank panels, brushed aluminum #D8D4CC edge trim, resting on stone #E8E3D9 honed limestone display ground with a matching stone inner tray hinting at a matte charcoal graphite #18181B device inside, sealed with one anodized terracotta #C84B31 paper band. Studio product photography, clean seams, crisp corners, gentle contact shadows. Soft directional morning daylight from camera-left, fully matte paper and ceramic-like finishes. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    },
+    "asset_social_banner": {
+      "prompt": "DATUM-01 launch banner: wide calm composition with the minimalist desktop climate monitor at right, matte alabaster #F5F3EE ceramic body and brushed aluminum #D8D4CC bezel on a stone #E8E3D9 honed limestone desk, charcoal graphite #18181B face carrying one anodized terracotta #C84B31 accent dot, surrounded by generous empty alabaster negative space for a quiet workspace mood. Long soft architectural shadows, subtle texture. Soft directional morning daylight from camera-left, matte surfaces throughout. No text, no letters, no numbers, no logos, no watermark, no neon glow, no purple or cyan lighting, no glossy CGI plastic, no floating particles."
+    }
+  }
+}

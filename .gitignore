@@ -1,0 +1,22 @@
+# Python caches and build products
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Local secrets and drafts
+.env
+.env.*
+x-thread-draft.md
+
+# Raw media and QA scratch kept out of the repo
+video/raw/
+video/build/
+video/_build/
+video/qa_raw/
+video/qa_frames/
+*.tmp
+
+# Tracked on purpose (no rule above matches these):
+#   workflows/, outputs/, assets/, scripts/, factory-card.png,
+#   video/studio-asset-factory-60s.mp4, *.py, *.json, *.md, LICENSE

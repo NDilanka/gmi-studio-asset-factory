@@ -1,0 +1,274 @@
+{
+  "brand_name": "DATUM-01",
+  "brief_sha256": "4a56998fc056d94b36281be03e7d594824bcc697f9f761ed882d57a3d11e8c78",
+  "generated_utc": "2026-11-25T08:24:33Z",
+  "manifest": "outputs/asset_manifest.json",
+  "api_calls": 0,
+  "cost_usd": 0.0,
+  "integrity_ok": true,
+  "workflows": [
+    {
+      "file": "workflows/brand-asset-factory.studio.json",
+      "ok": true,
+      "node_count": 16,
+      "link_count": 12,
+      "dangling_link_count": 0,
+      "stage_summary": {
+        "anchor": 2,
+        "batch": 1,
+        "llm": 1,
+        "remix": 4,
+        "save": 6,
+        "upload": 2
+      },
+      "generation_family": "reve",
+      "remix_fanout_from_batch": true,
+      "errors": []
+    },
+    {
+      "file": "workflows/brand-asset-factory-seedream.studio.json",
+      "ok": true,
+      "node_count": 16,
+      "link_count": 12,
+      "dangling_link_count": 0,
+      "stage_summary": {
+        "anchor": 2,
+        "batch": 1,
+        "llm": 1,
+        "remix": 4,
+        "save": 6,
+        "upload": 2
+      },
+      "generation_family": "seedream",
+      "remix_fanout_from_batch": true,
+      "errors": []
+    }
+  ],
+  "baseline": [
+    {
+      "group": "baseline",
+      "slot_id": "baseline_dashboard",
+      "aspect_ratio": "16:9",
+      "width": 2720,
+      "height": 1536,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.390625,
+      "mean_delta_e": 4.411774,
+      "palette_adherence_pct": 99.222222,
+      "chroma_outlier_pct": 0.0,
+      "terra_accent_pct": 0.0,
+      "has_terra_accent": false,
+      "mean_lightness_l": 90.514354,
+      "dominant_hex": [
+        "#F0F0F0",
+        "#D0D0D0",
+        "#B0B0B0",
+        "#F0F0D0",
+        "#D0D0B0"
+      ],
+      "path": "assets/baseline/baseline_dashboard.png"
+    },
+    {
+      "group": "baseline",
+      "slot_id": "baseline_packaging",
+      "aspect_ratio": "3:2",
+      "width": 2496,
+      "height": 1664,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.0,
+      "mean_delta_e": 11.295621,
+      "palette_adherence_pct": 84.707944,
+      "chroma_outlier_pct": 0.0,
+      "terra_accent_pct": 0.0,
+      "has_terra_accent": false,
+      "mean_lightness_l": 72.21712,
+      "dominant_hex": [
+        "#D0D0D0",
+        "#B0B0B0",
+        "#F0F0F0",
+        "#909090",
+        "#303030"
+      ],
+      "path": "assets/baseline/baseline_packaging.png"
+    }
+  ],
+  "factory": [
+    {
+      "group": "factory",
+      "slot_id": "anchor_hardware",
+      "aspect_ratio": "16:9",
+      "width": 2720,
+      "height": 1536,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.390625,
+      "mean_delta_e": 8.122035,
+      "palette_adherence_pct": 86.583333,
+      "chroma_outlier_pct": 0.020833,
+      "terra_accent_pct": 0.145833,
+      "has_terra_accent": true,
+      "mean_lightness_l": 71.970364,
+      "dominant_hex": [
+        "#F0F0D0",
+        "#D0B0B0",
+        "#D0D0D0",
+        "#303030",
+        "#B0B0B0"
+      ],
+      "path": "assets/factory/anchor_hardware.png"
+    },
+    {
+      "group": "factory",
+      "slot_id": "anchor_interface",
+      "aspect_ratio": "16:9",
+      "width": 2720,
+      "height": 1536,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.390625,
+      "mean_delta_e": 7.093246,
+      "palette_adherence_pct": 87.243056,
+      "chroma_outlier_pct": 0.020833,
+      "terra_accent_pct": 0.013889,
+      "has_terra_accent": true,
+      "mean_lightness_l": 82.766571,
+      "dominant_hex": [
+        "#F0F0F0",
+        "#F0D0D0",
+        "#D0D0D0",
+        "#B0B0B0",
+        "#909090"
+      ],
+      "path": "assets/factory/anchor_interface.png"
+    },
+    {
+      "group": "factory",
+      "slot_id": "asset_app_icon",
+      "aspect_ratio": "1:1",
+      "width": 2048,
+      "height": 2048,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.0,
+      "mean_delta_e": 7.235691,
+      "palette_adherence_pct": 84.8125,
+      "chroma_outlier_pct": 0.019531,
+      "terra_accent_pct": 0.191406,
+      "has_terra_accent": true,
+      "mean_lightness_l": 78.165237,
+      "dominant_hex": [
+        "#F0F0F0",
+        "#F0F0D0",
+        "#D0D0D0",
+        "#F0D0D0",
+        "#909090"
+      ],
+      "path": "assets/factory/asset_app_icon.png"
+    },
+    {
+      "group": "factory",
+      "slot_id": "asset_dashboard_shell",
+      "aspect_ratio": "16:9",
+      "width": 2720,
+      "height": 1536,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.390625,
+      "mean_delta_e": 11.547251,
+      "palette_adherence_pct": 70.055556,
+      "chroma_outlier_pct": 0.013889,
+      "terra_accent_pct": 0.013889,
+      "has_terra_accent": true,
+      "mean_lightness_l": 74.368805,
+      "dominant_hex": [
+        "#F0F0F0",
+        "#909090",
+        "#D0D0D0",
+        "#B0B0B0",
+        "#F0F0D0"
+      ],
+      "path": "assets/factory/asset_dashboard_shell.png"
+    },
+    {
+      "group": "factory",
+      "slot_id": "asset_packaging",
+      "aspect_ratio": "3:2",
+      "width": 2496,
+      "height": 1664,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.0,
+      "mean_delta_e": 10.523951,
+      "palette_adherence_pct": 80.292056,
+      "chroma_outlier_pct": 0.969626,
+      "terra_accent_pct": 6.349299,
+      "has_terra_accent": true,
+      "mean_lightness_l": 72.202619,
+      "dominant_hex": [
+        "#B0B0B0",
+        "#F0F0F0",
+        "#F0F0D0",
+        "#F0D0D0",
+        "#D0D0D0"
+      ],
+      "path": "assets/factory/asset_packaging.png"
+    },
+    {
+      "group": "factory",
+      "slot_id": "asset_social_banner",
+      "aspect_ratio": "16:9",
+      "width": 2720,
+      "height": 1536,
+      "aspect_ok": true,
+      "aspect_deviation_pct": 0.390625,
+      "mean_delta_e": 4.437775,
+      "palette_adherence_pct": 94.833333,
+      "chroma_outlier_pct": 0.020833,
+      "terra_accent_pct": 0.027778,
+      "has_terra_accent": true,
+      "mean_lightness_l": 84.904001,
+      "dominant_hex": [
+        "#F0F0F0",
+        "#B0B0B0",
+        "#F0F0D0",
+        "#D0D0D0",
+        "#D0D0B0"
+      ],
+      "path": "assets/factory/asset_social_banner.png"
+    }
+  ],
+  "comparison": {
+    "baseline": {
+      "n": 2,
+      "mean_delta_e": 7.853698,
+      "mean_palette_adherence_pct": 91.965083,
+      "mean_chroma_outlier_pct": 0.0,
+      "mean_lightness_l": 81.365737,
+      "lightness_std_dev": 12.938098,
+      "aspect_ok_count": 2,
+      "terra_accent_present_count": 0
+    },
+    "factory": {
+      "n": 6,
+      "mean_delta_e": 8.159992,
+      "mean_palette_adherence_pct": 83.969972,
+      "mean_chroma_outlier_pct": 0.177591,
+      "mean_lightness_l": 77.396266,
+      "lightness_std_dev": 5.502317,
+      "aspect_ok_count": 6,
+      "terra_accent_present_count": 6
+    },
+    "delta_factory_minus_baseline": {
+      "mean_delta_e": 0.306294,
+      "mean_palette_adherence_pct": -7.995111,
+      "mean_chroma_outlier_pct": 0.177591,
+      "mean_lightness_l": -3.969471,
+      "lightness_std_dev": -7.435781
+    },
+    "reduction_pct": {
+      "mean_delta_e": -3.899997,
+      "mean_chroma_outlier_pct": null,
+      "lightness_std_dev": 57.471978
+    },
+    "measured_better_on": [
+      "lightness_std_dev (lower)",
+      "terra_accent_coverage (higher)"
+    ],
+    "note": "Measured on a 160 px BILINEAR sample. lightness_std_dev is the sample standard deviation of per-image mean L*. Deltas are factory minus baseline."
+  }
+}
